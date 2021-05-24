@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+h2{
+	text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+#content .sidebar {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(146,146,146,1.00);
+    float: left;
+    width: 20%;
+    padding-right: 3%;
+    text-align: center;
+    background-color: rgba(246,246,246,1.00);
+    padding-top: 36px;
+    height: 784px;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+#content .sidebar {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	float: left;
+	width: 20%;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
+	background-color: rgba(246,246,246,1.00);
+	padding-top: 36px;
+	height: 784px;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 20%;
+  margin-top: 6px;
+	padding: right 100px;
+}
+.harita {
+  float: left;
+  width: 500px;
+  height: 300px;
+  margin-top: 6px;
+  padding: 20px;
+padding-left:20px ;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 90%;
+    margin-top: 0;
+  }
+}
